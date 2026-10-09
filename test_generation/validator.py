@@ -33,10 +33,12 @@ class TestCaseValidator:
                 f"Invalid priority: {test_case.priority}"
             )
 
-        if not test_case.input.strip():
-            raise ValueError("Test input cannot be empty")
+        if not test_case.input:
+            raise ValueError(
+                "Test input cannot be empty"
+            )
 
-        if not test_case.expected_output.strip():
+        if not test_case.expected_output:
             raise ValueError(
                 "Expected output cannot be empty"
             )

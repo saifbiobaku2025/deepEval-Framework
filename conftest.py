@@ -43,6 +43,7 @@ def llm_client():
     return LLMClient(
         base_url=OLLAMA_BASE_URL,
         model=OLLAMA_MODEL,
+        # model=OLLAMA_MODEL_QWEN,
     )
 
 def basic_qa_cases():

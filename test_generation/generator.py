@@ -56,6 +56,8 @@ class AITestGenerator:
 
         # data = json.loads(response)
         data = self.extract_json(response)
+        
+        print(json.dumps(data, indent=2))
 
         return [
             GeneratedTestCase(**test_case)

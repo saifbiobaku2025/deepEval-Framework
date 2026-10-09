@@ -1,5 +1,7 @@
 from ai.evaluator import Evaluator
+import pytest
 
+@pytest.mark.ai
 def test_llm_response(llm_client):
 
     response = llm_client.generate(

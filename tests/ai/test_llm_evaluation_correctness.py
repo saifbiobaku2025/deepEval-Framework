@@ -5,7 +5,7 @@ from deepeval.metrics import GEval
 from deepeval.test_case import SingleTurnParams
 
 
-
+@pytest.mark.ai
 def test_answer_correctness(llm_client, eval_model):
     prompt = "What is the capital of France?"
     response = llm_client.generate(prompt)

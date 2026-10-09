@@ -29,7 +29,7 @@ OLLAMA_BASE_URL = os.getenv(
 
 OLLAMA_MODEL = os.getenv(
     "OLLAMA_MODEL",
-    "llama3.3:latest"
+    "llama3.2:latest"
 )
 
 OLLAMA_MODEL_QWEN = os.getenv(
