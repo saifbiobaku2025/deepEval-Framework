@@ -1,0 +1,17 @@
+[
+  {
+    "id": "qa-001",
+    "prompt": "What is the capital of France?",
+    "expected": "Paris"
+  },
+  {
+    "id": "qa-002",
+    "prompt": "What planet do humans live on?",
+    "expected": "Earth"
+  },
+  {
+    "id": "qa-003",
+    "prompt": "What is 2 + 2?",
+    "expected": "4"
+  }
+]

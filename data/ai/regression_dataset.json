@@ -1,0 +1,44 @@
+[
+{
+    "id": "qa-001",
+    "category": "general_knowledge",
+    "priority": "critical",
+    "tags": ["smoke", "regression", "factual"],
+    "input": "What is the capital of France?",
+    "expected_output": "Paris",
+    "prompt_version": "v1.0",
+    "model": "llama3.2:latest",
+    "threshold": 0.80
+  },
+  {
+    "id": "qa-002",
+    "category": "general_knowledge",
+    "priority": "critical",
+    "tags": ["smoke", "regression", "factual"],
+    "input": "What is the capital of Japan?",
+    "expected_output": "Tokyo",
+    "prompt_version": "v1.0",
+    "model": "llama3.2:latest",
+    "threshold": 0.80
+  },
+  {
+    "id": "qa-003",
+    "category": "reasoning",
+    "priority": "critical",
+    "tags": ["smoke", "regression", "reasoning"],
+    "input": "If a box contains 3 apples and you add 2 more, how many apples are there?",
+    "expected_output": "5",
+    "prompt_version": "v1.0",
+    "model": "llama3.2:latest",
+    "threshold": 0.80
+  },
+  {
+    "id": "qa-004",
+    "category": "instruction_following",
+    "input": "Respond with exactly one word: blue",
+    "expected_output": "blue",
+    "prompt_version": "v1.0",
+    "model": "llama3.2:latest",
+    "threshold": 0.80
+  }
+]

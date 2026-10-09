@@ -1,0 +1,12 @@
+[
+  {
+    "id": "qa-001",
+    "input": "What is the capital of France?",
+    "expected_output": "Paris"
+  },
+  {
+    "id": "qa-002",
+    "input": "What planet do humans live on?",
+    "expected_output": "Earth"
+  }
+]
